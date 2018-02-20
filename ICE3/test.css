@@ -1,0 +1,29 @@
+#p1, #p2, #p3 {
+  width: 55px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#p4, #p5, #p6, #p7 {
+  width: 55px;
+  line-height: 50px;
+  text-align: center;
+  background: lightgrey;
+}
+
+.mon {
+  background-color: pink;
+  color: green;
+  font-family: Times, Helvetica;
+}
+
+.tue {
+  background-color: black;
+  color: white;
+  font-family: Couriers, Cursive;
+}
+
+.thur {
+  background-color: blue;
+  font-family: Arial;
+}
