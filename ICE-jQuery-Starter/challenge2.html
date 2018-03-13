@@ -10,7 +10,7 @@
       // YOUR CODE HERE
 			$(document).ready(function(){
 				$('#useBilling').on('change', function(){
-					if($this.checked) {  // if($(this).is(':checked'))
+					if(this.checked) {  // if($(this).is(':checked'))
 						$('#home').val($('#billing').val());
 						$('#home').prop('disabled', true);
 					} else {
