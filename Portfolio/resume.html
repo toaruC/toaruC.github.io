@@ -12,16 +12,27 @@
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,600" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   <!-- jquery -->
-  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer src="script/script.js"></script>
   <!-- Local CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/projects-style.css">
+  <link rel="stylesheet" href="css/nav-open-animation.css">
 
 </head>
 <body>
-
-<nav class="site-nav">
+<div class="overlay-nav-open">
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html" data-content="Hey!Nice2meetU!">Home</a></li>
+      <li><a href="projects.html" data-content="PrideMyself;)">Projects</a></li>
+      <li><a href="resume.html" class="current-page" data-content="Seriously:/">Resume</a></li>
+      <li><a href="about.html" data-content="LetsPartyXD">About</a></li>
+      <li><a href="mailto:yanghan@umich.edu" data-content="ReachMeOut<3">Email</a></li>
+  </nav>
+</div>
+<nav role="navigation" class="site-nav">
   <a class="nav-logo" href="./index.html">
     <svg id="ico-logo-w" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
        viewBox="0 0 90 30" style="enable-background:new 0 0 90 30;" xml:space="preserve">
@@ -48,11 +59,11 @@
   <a class="nav-menu" href="#">
     <span id="text-menu" class="is-hidden">menu</span>
     <svg id="ico-menu"version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-       viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve">
+       viewBox="0 0 30 24" xml:space="preserve">
         <title>ico-menu</title>
-        <rect id="Rectangle-2" style="fill:#FF5171;" width="30" height="3"/>
-        <rect id="Rectangle-2-Copy" y="10" style="fill:#FF5171;" width="30" height="3"/>
-        <rect id="Rectangle-2-Copy-2" y="20" style="fill:#FF5171;" width="30" height="3"/>
+        <rect style="fill:#FF5171;" width="30" height="3"/>
+        <rect y="10" style="fill:#FF5171;" width="30" height="3"/>
+        <rect y="20" style="fill:#FF5171;" width="30" height="3"/>
     </svg>
   </a>
 </nav>
