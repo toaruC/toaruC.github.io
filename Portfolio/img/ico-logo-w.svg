@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="30px" viewBox="0 0 91 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile_home" transform="translate(-12.000000, -17.000000)">
+            <g id="logo" transform="translate(10.000000, 10.000000)">
+                <text id="hyang" font-family="Muli-Bold, Muli" font-size="30" font-weight="bold" letter-spacing="-0.833333254">
+                    <tspan x="0.0583331347" y="30" fill="#111111">hy</tspan>
+                    <tspan x="32.7716666" y="30" font-family="Muli-Regular, Muli" font-weight="normal" fill="#999999">ang</tspan>
+                </text>
+                <rect id="Rectangle-4" fill="#FF5171" x="88" y="25" width="5" height="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
