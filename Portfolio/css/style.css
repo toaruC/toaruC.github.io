@@ -204,7 +204,11 @@ open-para{
         color: #ffffff;
       }
 
-      .caption-right > h1 > span{
+      .caption-right h4 span{
+        display: block;
+      }
+
+      .caption-right h1 span{
         color: #222222;
       }
 
@@ -406,4 +410,11 @@ div.footer-content ul li a.current-page{
 .footer-content > ul > li > a:active{
   color: #222;
   transition: color 0.5s ease-in-out;
+}
+
+/* ==========MISCS========= */
+.pdf-container object{
+   height:800px;
+   width: 100%;
+   margin: 3rem 0 0;
 }
