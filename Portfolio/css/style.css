@@ -25,7 +25,7 @@ a:hover, a:active{
 }
 
 .is-hidden{
-  display: none !important; 
+  display: none; 
 }
 
 .align-left{

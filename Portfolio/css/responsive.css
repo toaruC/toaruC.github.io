@@ -30,6 +30,9 @@
     margin-left: 15%;
   }
 
+  .prj-info > div.info-team{
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 848px){
@@ -57,7 +60,7 @@
   }
 
   p, p.label{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .header-caption{
@@ -67,6 +70,11 @@
   section.featured-project{
     padding-top: 3rem;
     background-size: 85% 60%;
+  }
+
+  .prj-info > div.info-role,
+  .prj-info > div.info-team{
+    display: block;
   }
 
 }
