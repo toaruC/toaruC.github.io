@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background: url("../images/sun-pattern.png") repeat;
+}
+
+.img-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.imgbox{
+  display: block;
+  width: 50%;
+}
+
+.imgbox img{
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
+  padding: 5%;
+  border: blue solid 5px;
+}
