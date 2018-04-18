@@ -1,0 +1,59 @@
+/* header-decoration animation */
+.header-scroll{
+  animation: 2.5s ease-in-out 0s infinite header_scroll_fadeIn;
+}
+.header-endline{
+  animation: 1s ease 2.5s header_endline_slideInfromLeft;
+}
+
+/* caption animation */
+#caption-hello{
+  animation: 1.5s ease-in-out 0s caption_scrollInLeft;
+}
+#caption-welcome{
+  animation: 1.2s ease-in-out 1s caption_scrollInLeft;
+}
+#caption-neverland{
+  animation: 1.2s ease-in-out 1s caption_scrollInRight;
+}
+#caption-tags{
+  animation: 1.2s ease-in-out 1.4s caption_scrollInRight;
+}
+
+
+@keyframes header_endline_slideInfromLeft {
+  0%{
+    transform: translateX(30rem);
+  }
+  100%{
+    transform: translateX(0rem);
+  }
+
+}
+
+@keyframes header_scroll_fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes caption_scrollInLeft{
+  0%{
+    transform: translateX(-100rem);
+  }
+  100%{
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes caption_scrollInRight{
+  0%{
+    transform: translateX(100rem);
+  }
+  100%{
+    transform: translateX(0rem);
+  }
+}

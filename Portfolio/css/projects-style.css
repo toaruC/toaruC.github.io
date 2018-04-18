@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 16rem repeat(9, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 5%;
     grid-template-areas:
       "header"
       "prj1" "prj2" "prj3" "prj4" "prj5" "prj6" "prj7" "prj8" "prj9"
@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 16rem 12rem 1fr;
-    grid-gap: 1rem;
+    /* grid-gap: 1rem; */
   }
 
 .detail-container > header.prj-header{
@@ -24,20 +24,18 @@
 
 .prj-info{
   grid-row: 2/3;
-
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   background-image: url("../img/bg-fprj-rect-f4f4f4.png");
   background-repeat: no-repeat;
-  background-size: 100% 60%;
+  background-size: 60% 60%;
   padding-top: 5%;
   padding-left: 5%;
 }
 
 .prj-info > div > p{
-  /* font-size: 1.2rem; */
-  line-height: 1.8rem;
+  font-size: 1.2rem;
   color: #777777;
 }
 
@@ -50,6 +48,7 @@
 
 .prj-description{
   grid-row: 3/4;
+  padding-top: 3rem;
 }
 .prj-description > img{
   width: 100%;
@@ -63,7 +62,6 @@
 
 .site-nav{
   grid-area: nav;
-  padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -75,13 +73,15 @@
 
 .prj-caption{
   height: 6.8rem;
-  width: 20rem;
+  width: 15rem;
   background-image: url("../img/bg-fprj-rect-f4f4f4.png");
   background-repeat: no-repeat;
-  background-size: 81.36% 79.1%;
+  background-size: 60% 79.1%;
   position: relative;
 }
-
+  .prj-caption.bg-nkf{
+    background-image: url("../img/bg-prj-detail-rect-orange.png");
+  }
   .prj-caption.bg-bik{
     background-image: url("../img/bg-prj-detail-rect-yellow.png");
   }
@@ -93,6 +93,9 @@
   }
   .prj-caption.bg-veb{
     background-image: url("../img/bg-prj-detail-rect-pink.png");
+  }
+  .prj-caption.bg-mob{
+    background-image: url("../img/bg-prj-detail-rect-purple.png");
   }
 
 .prj-caption > h1{
@@ -156,8 +159,9 @@ footer{
 /*=======PROJECTS PAGE Restyle========*/
 @media only screen and (min-width: 960px){
   .container{
-      margin: 0 20%;
-      grid-template-columns: 1fr 1fr;
+      margin: 0 16%;
+      grid-template-columns: 47.5% 47.5%;
+      /* don't use  1fr 1fr, it will cause weird disproportion on two-column images */
       grid-template-rows: 16rem repeat(5, 1fr);
       grid-template-areas:
         "header ."
@@ -171,22 +175,31 @@ footer{
     .detail-container{
       padding: 2rem;
       display: grid;
-      grid-template-columns: 16rem 44% 1fr;
+      grid-template-columns: 12% 44% 1fr;
       grid-template-rows: 16rem 14rem 1fr;
-      grid-gap: 1rem;
+      /* grid-gap: 1rem; */
     }
 
     .detail-container > header.prj-header{
-      grid-column: 1/2;
+      grid-column: 2/3;
     }
 
     .prj-info{
-        grid-column: span 2;
+        grid-column: 2/4;
+        background-size: 72% 60%;
     }
     .prj-info > div{
-      padding-right: 2rem;
+      padding-right: 2.4rem;
     }
     .prj-description{
-      grid-column: span 2;
+      grid-column: span 3;
+      padding-left: 12%;
+      padding-right: 12%;
     }
+}
+
+@media only screen and (min-width: 1280px){
+  .prj-info{
+      background-size: 60% 60%;
+  }
 }

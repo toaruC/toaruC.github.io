@@ -21,7 +21,7 @@ a:hover, a:active{
 }
 
 .content{
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .is-hidden{
@@ -38,6 +38,13 @@ a:hover, a:active{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -6rem;
+    visibility: hidden;
 }
 
 
@@ -67,7 +74,7 @@ h5{
 p{
   font-size: 1.4rem;
   font-weight: 300;
-  line-height: 150%;
+  line-height: 180%;
 }
 
 p.pbold{
@@ -79,9 +86,11 @@ p.label{
   font-weight: inherit;
 }
 
-open-para{
+.open-para{
   font-family: 'Vollkorn', 'Times New Roman', serif;
   font-size: 1.5rem;
+  color: #222222;
+  padding-right: 0.3rem;
 }
 
 /* ===============DOTS================== */
@@ -186,7 +195,7 @@ open-para{
   /* header caption */
   .header-caption{
     width: 29.2rem;
-    margin: 15rem auto 0 auto;
+    margin: 12rem auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -219,7 +228,7 @@ open-para{
   }
   .header-scroll a{
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 800;
   }
 
@@ -230,7 +239,7 @@ open-para{
 
   #ico-scroll{
     vertical-align: text-bottom;
-    width: 1.8rem;
+    width: 1.4rem;
     margin-right: 0.4rem;
   }
 
@@ -242,7 +251,7 @@ open-para{
     position: absolute;
     bottom: 0;
     height: 4px;
-    width: 98%;
+    width: 40%;
   }
     .header-endline .dot-endline{
       display: inline-block;
@@ -292,7 +301,7 @@ section.featured-project{
     }
 
   section.featured-project > div > h4{
-    width: 26rem;
+    width: 23rem;
     margin-top: 1rem;
     padding-left: 3rem;
     font-weight: 400;
@@ -302,6 +311,14 @@ section.featured-project{
     section.featured-project.align-right > div > h4{
       text-align: right;
       padding-right: 3rem;
+    }
+
+  section.featured-project a{
+    transition: all 0.2s ease;
+  }
+
+    section.featured-project a:hover{
+      transform: scale(0.9, 0.9);
     }
 
 

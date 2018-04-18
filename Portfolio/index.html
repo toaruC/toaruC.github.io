@@ -8,7 +8,7 @@
   <meta name="author" content="Han Yang">
   <title> HanYang's Neverland</title>
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,600" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   <!-- jquery -->
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/nav-open-animation.css">
+  <link rel="stylesheet" href="css/keyframes.css">
 
 </head>
 <body>
@@ -73,11 +74,11 @@
         </a>
       </nav>
       <div class="header-caption">
-          <h1>Hello<span class="color-hello dot-lg">.</span></h1>
-          <h1 >Welcome to Han's</h1>
+          <h1 id="caption-hello">Hello<span class="color-hello dot-lg">.</span></h1>
+          <h1 id="caption-welcome">Welcome to Han's</h1>
           <div class="caption-right">
-            <h1>Neverland<span class="color-neverland dot-lg">.</span></h1>
-            <h4>
+            <h1 id="caption-neverland">Neverland<span class="color-neverland dot-lg">.</span></h1>
+            <h4 id="caption-tags">
               <span>User Experience Design.</span>
               <span>Graphic Design.</span>
               <span>User Research.</span>
@@ -88,7 +89,7 @@
           </div>
       </div>
       <div class="header-scroll">
-        <a href="#">
+        <a href="#fprj-anchor">
           <svg version="1.1" id="ico-scroll" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 18 30" style="enable-background:new 0 0 18 30;" xml:space="preserve">
             <title>ico-scroll</title>
@@ -108,8 +109,9 @@
   </header>
 
   <div class="fprj-wrapper">
+    <a class="anchor" id="fprj-anchor"></a>
     <section id="fprj1" class="content featured-project align-left">
-      <a href="prj-veb.html">
+      <a class="trans-fprj-nkf" href="prj-nkf.html" name="prj-nkf">
         <picture>
           <source media="(min-width: 1600px)" srcset="img/img-fprj-nkf@3x.png">
           <source media="(min-width: 768px)" srcset="img/img-fprj-nkf@2x.png">
@@ -119,7 +121,7 @@
       <div class="fprj-description align-left">
         <p class="label">Featured Project</p>
         <h2 class="fprj-title">
-          <a href="prj-veb.html">
+          <a href="prj-nkf.html">
             National Kidney Foundation<span class="color-nkf dot-lg">.</span>
           </a>
         </h2>
@@ -128,7 +130,7 @@
     </section>
 
     <section id="fprj2" class="content featured-project align-right">
-      <a href="prj-acm.html">
+      <a href="prj-mob.html">
         <picture>
           <!-- @3x above @2x -->
           <source media="(min-width: 1600px)" srcset="img/img-fprj-mob@3x.png">
@@ -139,7 +141,7 @@
       <div class="fprj-description align-right">
         <p class="label">Featured Project</p>
         <h2 class="fprj-title">
-            <a href="prj-acm.html">
+            <a href="prj-mob.html">
               Video this<span class="color-mob1 dot-lg">.</span> Mobsting<span class="color-mob2 dot-lg">.</span>
             </a>
         </h2>
@@ -157,9 +159,11 @@
       </a>
       <div class="fprj-description align-left">
         <p class="label">Featured Project</p>
-        <a href="prj-bik.html">
-          <h2 class="fprj-title">Let's Go Biking<span class="color-biking dot-lg">.</span></h2>
-        </a>
+        <h2 class="fprj-title">
+          <a href="prj-bik.html">
+          Let's Go Biking<span class="color-biking dot-lg">.</span>
+          </a>
+        </h2>
         <h4 class="fprj-keywords">Mobile Design. Product Design. Michelin Challenge Bibendum.</h4>
       </div>
     </section>
@@ -174,9 +178,11 @@
       </a>
       <div class="fprj-description align-right">
         <p class="label">Featured Project</p>
-        <a href="prj-l1.html">
-          <h2 class="fprj-title">Sports Manager LeagueOne<span class="color-l1 dot-lg">.</span></h2>
-        </a>
+        <h2 class="fprj-title">
+          <a href="prj-l1.html">
+          Sports Manager LeagueOne<span class="color-l1 dot-lg">.</span>
+          </a>
+        </h2>
         <h4 class="fprj-keywords">Visual Design. Interaction Design. Client Management System.</h4>
       </div>
     </section>
@@ -228,8 +234,8 @@
         <li><a href="resume.html">Resume</a></li>
         <li><a href="about.html">About</a></li>
         <li class="sns">
-          <a href="https://www.pinterest.com/toaruC/"><i class="fab fa-pinterest"></i></a>
-          <a href="https://www.linkedin.com/in/hanneyang/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.pinterest.com/toaruC/"><i class="fab fa-pinterest" title="link_pinterest"></i></a>
+          <a href="https://www.linkedin.com/in/hanneyang/"><i class="fab fa-linkedin" title="link_linkedin"></i></a>
         </li>
       </ul>
     </div>
