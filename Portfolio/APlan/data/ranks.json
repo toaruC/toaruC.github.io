@@ -1,0 +1,19 @@
+{
+  "ranks":[
+    {
+      "rank_id": 0,
+      "type": "Globe",
+      "ranking_by_uid": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "rank_id": 1,
+      "type": "US",
+      "ranking_by_uid": [3, 4, 6, 5, 1]
+      },
+    {
+      "rank_id": 2,
+      "type": "EN",
+      "ranking_by_uid": [7, 9, 8, 0, 2]
+      }
+  ]
+}

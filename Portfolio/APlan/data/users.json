@@ -1,0 +1,20 @@
+{
+  "users":[
+    {
+      "user_id": 0,
+      "user_name": "annie",
+      "email": "annie@tongji.edu",
+      "password": "c8837b23ff8aaa8a2dde915473ce0991",
+      "portrait": "img/pic_portrait_annie.png",
+      "user_university": "Tongji University",
+      "user_degree": "B.E",
+      "user_major": "Software Engineering",
+      "user_GPA": 3.93,
+      "user_graduation": 2019,
+      "user_language_test": {"TOEFL":104, "GRE":326},
+      "user_leadership": ["Published Paper", "Award Winner"],
+      "application_id": 0,
+      "interest_id": 0
+    }
+  ]
+}

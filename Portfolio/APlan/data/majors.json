@@ -1,0 +1,22 @@
+{
+  "majors":[
+    {
+      "major_id": 0,
+      "major_name": "Actuarial Sciences",
+      "category": "Science",
+      "major_url": "https://hyang.cc/projects/APlan/major/hci.html"
+    },
+    {
+      "major_id": 1,
+      "major_name": "Chemistry",
+      "category": "Science",
+      "major_url": "https://hyang.cc/projects/APlan/major/hci.html"
+    },
+    {
+      "major_id": 2,
+      "major_name": "Geohysics",
+      "category": "Science",
+      "major_url": "https://hyang.cc/projects/APlan/major/hci.html"
+    }
+  ]
+}

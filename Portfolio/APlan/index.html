@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- meta and title -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Han Yang, Bei Jing">
+  <title>Home</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+  <!-- Local JS -->
+  <script src="script/script.js"></script>
+
+  <div class="container">
+      <!-- navigation -->
+      <ul class="nav flex-container row center" role="navigation">
+        <li class="nav-item top-logo"><img src="img/APLAN_logo.svg" alt="APLAN_logo" onclick="location.href='index.html';"></li>
+        <li class="line-separator vertical" style="height:2.4rem;"></li>
+        <li class="nav-item current"><a href="#index">Home</a></li>
+        <li class="nav-item"><a href="school.html">School</a></li>
+        <li class="nav-item"><a href="major.html">Major</a></li>
+        <li class="nav-item"><a href="application.html">Application</a></li>
+        <li class="nav-item"><a href="community.html">Community</a></li>
+        <li class="nav-center"></li>
+        <li class="nav-item" style="margin:0;">
+          <form class="search-container">
+            <input id="global-search" placeholder="search" type="search" />
+            <a class="search-icon" href="#search"><i class="fa fa-search" style="transform:translate(-3.2rem,0);"></i></a>
+          </form>
+        </li>
+        <li class="nav-item" style="margin:0; display: inline-flex; align-items: center;">
+          <i id="pic_profile" class="fas fa-user-circle"></i>
+          <div style="display:inline;">
+            <a href="signin.html">Sign in</a> / <a href="signup.html">Sign up</a>
+          </div>
+        </li>
+      </ul>
+      <!-- navigation end -->
+
+      <!-- hero and caption -->
+      <div class="hero">
+        <div class="flex-container row">
+          <div class="hero-image"><img src="img/pic_hero.svg"></div>
+          <div class="caption">
+            <h1>Start <span style="color:#FFB02A">DIY</span> Your <span style="color:#39D6B3">Applications</span> Now!</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</h3>
+            <button type="button" class="button" onclick="location.href='signin.html';">Create Application Plan</button>
+          </div>
+        </div>
+      </div>
+      <!-- hero and caption end-->
+
+      <!-- programs picked for you -->
+      <div class="programs-picked">
+        <div class="container">
+          <div class="title flex-container row">
+            <div class="line-separator"></div>
+            <h4>Programs Picked for You</h4>
+            <a href="#">Edit interests to refine recommendations →</a>
+          </div>
+          <div id="programs-picked-main" class="flex-child" style="margin-top:1.6rem;">
+              <!-- programs.json file loaded here   -->
+          </div>
+        </div>
+      </div>
+      <!-- programs picked for you end-->
+
+      <!-- ranking -->
+      <div class="ranking">
+        <div class="container">
+          <div class="title flex-container row">
+            <div class="line-separator"></div>
+            <h4>Ranking</h4>
+          </div>
+          <div class="ranking-main flex-child" style="margin-top:1.6rem;">
+            <a href="#"><img class="ranking-card" src="img/pic_ranking1.png"></a>
+            <a href="#"><img class="ranking-card" src="img/pic_ranking2.png"></a>
+            <a href="#"><img class="ranking-card" src="img/pic_ranking3.png" style="margin:0"></a>
+          </div>
+        </div>
+      </div>
+      <!-- ranking end -->
+
+      <!-- community & major -->
+      <div class="commajor">
+        <div class="container flex-container row space-between align-start">
+              <div class="community-trend">
+                <div class="title flex-child row">
+                  <div class="line-separator"></div>
+                  <h4>Community Trends</h4>
+                </div>
+                <div style="margin-top:1.6rem;">
+                  <a href="#"><img class="community-card" src="img/pic_community1.png"></a>
+                  <a href="#"><img class="community-card" src="img/pic_community2.png"></a>
+                </div>
+              </div>
+              <div class="major-finder">
+                <div class="title flex-child row">
+                  <div class="line-separator"></div>
+                  <h4>Major Finder</h4>
+                </div>
+                <div class="finder-main" style="margin-top:1.6rem;">
+                  <a href="#"><img class="finder-card" src="img/pic_major_finder.png"></a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <!-- community & major end-->
+
+      <div class="banner full-width" style="background-color:#FFBD4D">
+        <a href="signup.html"><img class="scale-img" src="img/pic_banner.png"></a>
+      </div>
+
+      <div class="footer full-width">
+        <img class="scale-img" src="img/pic_footer.png">
+      </div>
+</div>
+</body>
+
+</html>

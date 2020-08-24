@@ -1,0 +1,55 @@
+#app_plans {
+  background-color: #f5f5f5;
+  width: 32%;
+  height: 100%;
+  left: 0;
+}
+
+#app_content {
+  background-color: #F0F0F0;
+  width: 68%;
+  height: 100%;
+  right: 0;
+  padding-left: 4rem;
+}
+
+#app_info {
+  background-color: #fff;
+  width: 85.2rem;
+  border-radius: 0.8rem;
+  padding: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.checklist-container {
+  width: 61rem;
+  margin-right: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.checklist-box {
+  width: 100%;
+  height:auto;
+  margin-bottom: 2.4rem;
+}
+
+.instruction-container {
+  width: 26.4rem;
+}
+
+.instruction-card {
+  width: 100%;
+  height:auto;
+  margin-bottom: 2.4rem;
+}
+
+.plan-card {
+  width: 38.2rem;
+  height: auto;
+  margin-bottom: 2.4rem;
+}
+
+.plan-card img {
+  width: 100%;
+  height: auto;
+}

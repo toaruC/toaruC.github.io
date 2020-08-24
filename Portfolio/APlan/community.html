@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- meta and title -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Han Yang, Bei Jing">
+  <title>Major</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+  <!-- Local JS -->
+  <script src="script/script.js"></script>
+
+  <div class="container">
+    <!-- navigation -->
+    <ul class="nav flex-container row center" role="navigation">
+      <li class="nav-item top-logo"><img src="img/APLAN_logo.svg" alt="APLAN_logo" onclick="location.href='index.html';"></li>
+      <li class="line-separator vertical" style="height:2.4rem;"></li>
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item"><a href="school.html">School</a></li>
+      <li class="nav-item"><a href="major.html">Major</a></li>
+      <li class="nav-item"><a href="application.html">Application</a></li>
+      <li class="nav-item current"><a href="community.html">Community</a></li>
+      <li class="flex-center"></li>
+      <li class="nav-item" style="margin:0;">
+        <form class="search-container">
+          <input id="global-search" placeholder="search" type="search" />
+          <a class="search-icon" href="#search"><i class="fa fa-search" style="transform:translate(-3.2rem,0);"></i></a>
+        </form>
+      </li>
+      <li class="nav-item" style="margin:0; display: inline-flex; align-items: center;">
+        <i id="pic_profile" class="fas fa-user-circle"></i>
+        <div style="display:inline;">
+          <a href="signin.html">Sign in</a> / <a href="signup.html">Sign up</a>
+        </div>
+      </li>
+    </ul>
+    <!-- navigation end -->
+    <!-- main -->
+    <div class="full-width" style="background-color:#f5f5f5;padding:4rem 0;">
+        <div class="container flex-container row space-between align-start">
+
+          <div id="community_list" class="flex-child column align-start">
+            <!-- title -->
+            <div class="sort-title flex-child row">
+              <a href="#">+ Ask Question</a>
+              <div class="flex-center"></div>
+              <p class="tip" style="margin-right:1rem;">Sort by</p>
+              <select>
+                <option>Ranking</option>
+                <option selected>Picked for You</option>
+                <option>Score</option>
+                <option>Student Review</option>
+                <option>Tuition(low to high)</option>
+              </select>
+              </div>
+              <!-- title end -->
+
+              <!-- community posts -->
+              <div id="post1" class="community-card">
+                <a href="#"><img src="img/pic_community1.png"></a>
+                </div>
+                <div id="post2" class="community-card">
+                  <a href="#"><img src="img/pic_community2.png"></a>
+                  </div>
+                  <div id="post3" class="community-card">
+                    <a href="#"><img src="img/pic_community3.png"></a>
+                    </div>
+                <!-- community end -->
+
+            </div>
+
+
+            <div class="feed-topics">
+              <div class="title flex-child row" style="width:36.8rem;">
+                <div class="line-separator"></div>
+                <h4>Topics</h4>
+                <div class="flex-center"></div>
+                <a class="tip" href="#">Manage</a>
+              </div>
+              <div class="finder-main" style="margin-top:1.6rem;">
+                <a href="#"><img class="finder-card" src="img/pic_topics.png"></a>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+    <div class="footer full-width">
+        <img class="scale-img" src="img/pic_footer.png">
+    </div>
+
+  </div>
+</body>
+
+</html>

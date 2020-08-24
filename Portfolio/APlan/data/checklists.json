@@ -1,0 +1,25 @@
+{
+  "checklists":[
+    {
+      "checklist_id": 0,
+      "application_id": 0,
+      "language_test":[
+        {"name":"TOEFL", "Due":"12/13/2018", "min":100, "avg":108, "score":-1, "pass":false},
+        {"name":"GRE", "Due":"12/13/2018", "min":320, "avg":330, "score":-1, "pass":false}
+      ],
+      "documents":[
+          {"name":"Personal Statement", "Due":"1/18/2019", "description":"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit", "pass":false},
+          {"name":"Resume", "Due":"2/14/2019", "description":"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit", "pass":false},
+          {"name":"Portfolio (Optional)", "Due":"2/14/2019", "description":"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit", "pass":false}
+      ],
+      "recommendations":[
+        {"fullname":"Allen Wong", "position":"Undergraduate Advisor", "email":"allen@tongji.edu", "Due":"2/14/2019", "pass":false},
+        {"fullname":"Isabella Silva", "position":"Company Manager", "email":"isabella.silva48@example.comr", "Due":"2/14/2019", "pass":false}
+      ],
+      "others":[
+        {"name":"Create an Application Account", "Due":"", "description":"", "pass":false},
+        {"name":"Apply for F-1 Visa", "Due":"", "description":"", "pass":false}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.nav {
+  height: 7.2rem;
+  background-color: #fff;
+}
+
+.nav-center {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.nav-item {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.nav-item a{
+  font-size: 1.6rem;
+  color: #555555;
+}
+
+.nav-item a.login{
+  font-size: 1.4rem;
+  color: #999999;
+  line-height: 2.4rem;
+}
+
+.nav-item a:hover{
+  color: #252D35;
+  border-bottom: 0.3rem solid #FFB02A;
+}
+
+.nav-item a.search-icon{
+  color: #999;
+  border-bottom: none;
+}
+.nav-item a.search-icon:hover{
+  color: #252D35;
+  border-bottom: none;
+}
+
+.nav-item.current a{
+  font-weight: 600;
+  color: #252D35;
+  border-bottom: 0.3rem solid #FFB02A;
+}
+
+i#pic_profile {
+  font-size: 3.2rem;
+  padding-right: 0.8rem;
+  color: #d8d8d8;
+}

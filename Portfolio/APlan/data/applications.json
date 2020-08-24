@@ -1,0 +1,16 @@
+{
+  "applications":[
+    {
+      "application_id": 0,
+      "user_id": 0,
+      "programs": [
+        {"program_id": 0, "progress": 0, "status": "Not Started", "checklist_id": 0},
+        {"program_id": 1, "progress": 30, "status": "In Progress", "checklist_id": 1},
+        {"program_id": 2, "progress": 90, "status": "Submitted", "checklist_id": 2},
+        {"program_id": 3, "progress": 90, "status": "Submitted", "checklist_id": 3},
+        {"program_id": 4, "progress": 100, "status": "Declined", "checklist_id": 4},
+        {"program_id": 5, "progress": 100, "status": "Offer", "checklist_id": 4}
+      ]
+    }
+  ]
+}

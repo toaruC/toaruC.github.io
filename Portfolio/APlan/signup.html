@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- meta and title -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Han Yang, Bei Jing">
+  <title>Sign Up</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+  <!-- Local JS -->
+  <script src="script/script.js"></script>
+
+  <div class="container">
+    <!-- navigation -->
+    <ul class="nav flex-container row center" role="navigation">
+      <li class="nav-item top-logo"><img src="img/APLAN_logo.svg" alt="APLAN_logo" onclick="location.href='index.html';"></li>
+      <li class="line-separator vertical" style="height:2.4rem;"></li>
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item"><a href="school.html">School</a></li>
+      <li class="nav-item"><a href="major.html">Major</a></li>
+      <li class="nav-item"><a href="application.html">Application</a></li>
+      <li class="nav-item"><a href="community.html">Community</a></li>
+      <li class="flex-center"></li>
+      <li class="nav-item" style="margin:0;">
+        <form class="search-container">
+          <input id="global-search" placeholder="search" type="search" />
+          <a class="search-icon" href="#search"><i class="fa fa-search" style="transform:translate(-3.2rem,0);"></i></a>
+        </form>
+      </li>
+      <li class="nav-item" style="margin:0; display: inline-flex; align-items: center;">
+        <i id="pic_profile" class="fas fa-user-circle"></i>
+        <div style="display:inline;">
+          <a href="signin.html">Sign in</a> / <a href="signup.html">Sign up</a>
+        </div>
+      </li>
+    </ul>
+    <!-- navigation end -->
+    <!-- main -->
+    <div class="full-width" style="background-color:#555555;padding:4rem 0;">
+      <div id="signup" class="container" style="position:relative;">
+        <button type="button" class="button secondary" style="position: absolute;bottom: 20%;left: 10%;"  onclick="location.href='signin.html';">Sign In</button>
+        <div class="flex-container column align-start"  style="position: absolute;left: 50%;top:5%;">
+          <h1 style="margin-bottom:2.4rem;">Sign Up</h1>
+          <form>
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username" placeholder="User Name" style="width:26.8rem;">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email" style="width:26.8rem;">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" style="width:26.8rem;">
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="password2" id="password2" placeholder="Type Password Again" style="width:26.8rem;">
+            <br>
+            <input type="button" class="button" value="Sign Up" style="width:30rem;" onclick="location.href='survey1.html';">
+          </form>
+          <p class="tip" style="margin-top:3.2rem;margin-bottom:1rem;">Register with social media:</p>
+          <a href="#"><img src="img/ico_sns.png" style="height:2.4rem;width:auto;"></a>
+        </div>
+      </div>
+
+        </div>
+
+    <div class="footer full-width">
+        <img class="scale-img" src="img/pic_footer.png">
+    </div>
+
+  </div>
+</body>
+
+</html>
